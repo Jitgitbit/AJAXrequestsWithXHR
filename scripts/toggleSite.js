@@ -10,13 +10,13 @@ const id = document.querySelector('#logo')
 const renderToggle = () => {
   if(title.innerHTML === 'Word Smith'){
     title.innerHTML = "byteSize"
-    css.href = "public/byteSizeStyle.css"
+    css.href = "byteSizeStyle.css"
     id.src = "https://s3.amazonaws.com/codecademy-content/courses/intermediate-javascript-requests/bytesize_logo.svg"
     prompt.innerHTML = "Enter a URL"
     toggle.innerHTML = "Switch to GET requests!"
   } else {
     title.innerHTML = "Word Smith"
-    css.href = "public/wordSmithStyle.css"
+    css.href = "wordSmithStyle.css"
     id.src = "https://s3.amazonaws.com/codecademy-content/courses/intermediate-javascript-requests/wordsmith_logo.svg"
     prompt.innerHTML = "Enter a Word"
     toggle.innerHTML = "Switch to POST requests!"
